@@ -1,0 +1,111 @@
+﻿FormatVersion: 6
+Name: "ParticlePlexus 1"
+Script: "ParticlePlexus"
+Config:
+  ParticlePath:
+    Type: "System.String"
+    Value: "sb/sprites/glow.png"
+  ParticleFadeMin:
+    Type: "System.Double"
+    Value: "0.5"
+  ParticleFadeMax:
+    Type: "System.Double"
+    Value: "0.8"
+  RandomParticleFade:
+    Type: "System.Boolean"
+    Value: "True"
+  ParticleOrigin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  ConnectRadiusMin:
+    Type: "System.Int32"
+    Value: "50"
+  ConnectRadiusMax:
+    Type: "System.Int32"
+    Value: "100"
+  TimeBetweenParticles:
+    Type: "System.Int32"
+    Value: "281"
+  RandomTravelTime:
+    Type: "System.Boolean"
+    Value: "True"
+  MinTravelTime:
+    Type: "System.Int32"
+    Value: "8000"
+  MaxTravelTime:
+    Type: "System.Int32"
+    Value: "10000"
+  TravelSpeed:
+    Type: "System.Int32"
+    Value: "50"
+  RandomMovement:
+    Type: "System.Boolean"
+    Value: "True"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "-107,0"
+  EndPosition:
+    Type: "OpenTK.Vector2"
+    Value: "747,480"
+  RandomX:
+    Type: "System.Boolean"
+    Value: "True"
+  RandomY:
+    Type: "System.Boolean"
+    Value: "True"
+  FadeTimeIn:
+    Type: "System.Int32"
+    Value: "500"
+  FadeTimeOut:
+    Type: "System.Int32"
+    Value: "500"
+  StartScale:
+    Type: "System.Double"
+    Value: "0.025"
+  EndScale:
+    Type: "System.Double"
+    Value: "0.05"
+  RandomScale:
+    Type: "System.Boolean"
+    Value: "True"
+  StartRotation:
+    Type: "System.Double"
+    Value: "0"
+  EndRotation:
+    Type: "System.Double"
+    Value: "0"
+  RandomRotation:
+    Type: "System.Boolean"
+    Value: "False"
+  ParticleAdditive:
+    Type: "System.Boolean"
+    Value: "True"
+  ParticleColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.8893003,0.4683267,0.6372565"
+  LineAdditive:
+    Type: "System.Boolean"
+    Value: "True"
+  LineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.6470588,0,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  44246f0758d6425b82976a82d7d12a11:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

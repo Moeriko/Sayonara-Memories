@@ -1,0 +1,20 @@
+﻿FormatVersion: 6
+Name: "CherryBlossom 1"
+Script: "CherryBlossom"
+Config:
+  MinColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9333333,0.8509804,1,1"
+  MaxColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.9058824,0.972549,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  e9749613e0644b4d847db2fcff7bed22:
+    Name: "CherryBlossom"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

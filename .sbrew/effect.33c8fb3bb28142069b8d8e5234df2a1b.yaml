@@ -1,0 +1,54 @@
+﻿FormatVersion: 6
+Name: "Backgrounds 1"
+Script: "Backgrounds"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  46f29d0b274440da91ee3d0bf15daa65:
+    Name: "Bottom"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  dd4ec68a346b41409bfe0c2aae5a060f:
+    Name: "BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  bee038c8b47c498cb3f63645b7e3f6d5:
+    Name: "BGB"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  b6a59bfd7afa44409d4be995c5ecac5d:
+    Name: "BG2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2188e6b648f741a8bb86144a58af4945:
+    Name: "BG2B"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  25b8edf7fef6487a8f44b6130a1a10b4:
+    Name: "BG3"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c2d3ccc9dc6d4df2bd20f0005e0c10a5:
+    Name: "BG3B"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  21149581bd0646be8e0ab4965732e9db:
+    Name: "Flash"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  7e54dfc7ea3b4fbdb6ed986a3845caf8:
+    Name: "Overlay"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

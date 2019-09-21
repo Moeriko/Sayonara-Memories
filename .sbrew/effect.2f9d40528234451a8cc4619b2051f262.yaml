@@ -1,0 +1,123 @@
+﻿FormatVersion: 6
+Name: "LyricsScript 1"
+Script: "LyricsScript"
+Config:
+  LyricsOrigin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  FontName:
+    Type: "System.String"
+    Value: "Kozuka Gothic Pr6N EL"
+  OutputPath:
+    Type: "System.String"
+    Value: "sb/lyrics"
+  LetterSpacing:
+    Type: "System.Single"
+    Value: "1"
+  LyricsFade:
+    Type: "System.Single"
+    Value: "1"
+  FontSize:
+    Type: "System.Int32"
+    Value: "30"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "True"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1960784,0.1960784,0.1960784,0.7843137"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "1"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.7843137"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Additive:
+    Type: "System.Boolean"
+    Value: "False"
+  RandomLyricsColor:
+    Type: "System.Boolean"
+    Value: "False"
+  Color1:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  Color2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.7843137,0.2745098,1"
+  Color3:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.5882353,0.5882353,1"
+  Color4:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3137255,1,0.3137255,1"
+  Color5:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3137255,0.7058824,1,1"
+  Color6:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.1960784,0.1960784,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  57f43fb780d741d5ae8138c15cd19782:
+    Name: "InfoBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3a28af19cba64ea682d2717a2a1f52a2:
+    Name: "LyricsBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  4f9d608a79a9412e8556756941baf623:
+    Name: "EndBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  a1d66c437d7749db9217df4e6f0c1046:
+    Name: "Lyrics"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
